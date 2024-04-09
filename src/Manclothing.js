@@ -10,7 +10,7 @@ import {
   MDBCol
 } from 'mdb-react-ui-kit';
 
-export default function Home() {
+export default function Manclothing() {
   const [appdata,setdata]=useState([])
   useEffect(()=>{
       fetch("https://fakestoreapi.com/products/category/men's%20clothing/").then((result)=>{
